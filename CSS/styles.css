@@ -1,0 +1,184 @@
+body {
+    font-family: "nunito sans", sans-serif;
+}
+.estructura {
+    display: grid;
+    grid-template-rows: 350px 700px 300px 70px; 
+    gap: 1em;
+}
+/*********Portada********/
+.estructura > .portada, img{
+    display: block;
+    position: relative;
+    float: left;
+}
+.estructura > .portada > .titulos{
+    color: white;
+    position: absolute;
+    padding-left: 480px;
+}
+
+.estructura > .portada >.titulos >.titulo {
+    font-size: 90px;
+    display: flex;
+    justify-content: flex-end;
+}
+.estructura > .portada > .titulos > .subtitulo{
+    color: white;
+    font-size: 50px;
+    padding-left: 280px;
+}
+/************************/
+
+/**********Cuerpo**********/
+.estructura > .cuerpo {
+    display: grid;
+    grid-template-columns: 790px 350px 350px 350px;
+    grid-template-rows: 232px 232px 232px;
+}
+
+.estructura > .cuerpo > .elemento3 {
+    background-color: #DC143C;
+    font-size: 40px;
+}
+.estructura > .cuerpo > .elemento3:hover {
+    background-color: #e0e0e0;
+    font-size: 80px;
+}
+.estructura > .cuerpo > .elemento3 > .inicio {
+    text-decoration: none;
+    color: white;
+}
+.estructura > .cuerpo > .elemento3 a{
+    display: block;
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*texto principal de la página de inicio*/
+.estructura > .cuerpo > .texto_inicio { 
+    color: #444444;
+}
+.estructura > .cuerpo >.texto_inicio header .tituloTexto {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.estructura > .cuerpo >.texto_inicio header .desarrollo {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-direction: column;
+}
+.estructura > .cuerpo >.texto_inicio header .desarrollo > #espero {
+    display: flex;
+    justify-content: center;
+}
+
+/****************************************/
+
+/*texto principal de la página sobre mi*/
+.estructura > .cuerpo > .texto_sobreMi { /*texto*/
+    background-color: #e0e0e0;
+}
+/****************************************/
+
+.estructura > .cuerpo > .elemento8 {
+    background-color: #DC143C;
+    font-size: 40px;
+}
+.estructura > .cuerpo > .elemento8:hover {
+    background-color:grey;
+    font-size: 80px;
+}
+.estructura > .cuerpo > .elemento8 > .sobreMi {
+    text-decoration: none;
+    color: white;
+}
+.estructura > .cuerpo > .elemento8 a{
+    display: block;
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estructura > .cuerpo > .elemento11 {
+    background-color: #DC143C;
+    font-size: 40px;
+}
+.estructura > .cuerpo > .elemento11:hover {
+    background-color: #444444;
+    font-size: 80px;
+}
+.estructura > .cuerpo > .elemento11 > .contacto {
+    text-decoration: none;
+    color: white;
+}
+.estructura > .cuerpo > .elemento11 a{
+    display: block;
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*******************************/
+
+/************Texto final**************/
+      /*****Inicio*****/
+.estructura > .textoFin_inicio {
+    background-color: #e0e0e0;
+}
+.estructura > .textoFin_inicio:hover {
+    background-color: #DC143C;
+}
+.estructura > .textoFin_inicio a {
+    display: block;
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+       /************/
+
+       /****Sobre Mí****/
+.estructura > .textoFin_sobreMi {
+    background-color: #e0e0e0;
+}
+.estructura > .textoFin_sobreMi:hover {
+    background-color: white;
+}
+.estructura > .textoFin_sobreMi a {
+    display: block;
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+        /****************/
+
+        /***Contacto****/
+.estructura > .textoFin_contacto {
+    background-color: #DC143C;
+    display: flex;
+    justify-content: center;
+}
+/**********************************/
+
+/**********Copyright**************/
+.estructura > .foot {
+    background-color: #444444;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*********************************/
